@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>My website</title>
+	<style>
+	*{
+		box-sizing: border-box;
+	}
+	body{
+		font-family: Arial;
+		padding: 10px;
+		background: #EFF6F9;
+	}
+
+	.header{
+		padding: 10px;
+		background-color: #A91515;
+		text-align: center;
+		font-family: serif;
+		color: white;
+		font-size: 40px;
+
+	}
+	.topmenu{
+		overflow: hidden;
+		background-color: #2A0A0A;
+	}
+	.topmenu a{
+		float: left;
+		display: block;
+		color: white;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+	}
+	.topmenu a:hover{
+		background-color: #E6E6E6;
+		color: black;
+	}
+	.representative{
+		background-color: #6E6E6E;
+		width: 80%;
+		margin-top: 15px;
+		padding: 15px;
+		float: left;
+	}
+	.row:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+	.card{
+		background-color: white;
+		padding: 20px 20px;
+		margin-top: 20px;
+	}
+	.form1{
+		width: 20%;
+		border: 1px solid black;
+		float: right;
+		padding: 15px;
+	}
+	.form1:hover{
+		border: 3px solid skyblue;
+	}
+	input[type=text]:focus{
+		width: 20%;
+	}
+	.clearfix::after{
+				content: "";
+				clear: both;
+				display: table;
+	}
+	</style>
+</head>
+<body>
+	<div class="header">
+		<h1>Nông Nghiệp Việt Nam</h1>
+		<p>An toàn - Chất Lượng - Tận Tâm</p>
+	</div>
+	<div class="topmenu">
+		<a href="https://vnexpress.net/" target="_blank" style="border: 1px solid #AEB404"> Vnexpress</a>
+		<a href="https://dantri.com.vn/" target="_blank"style="border: 1px solid #AEB404"> Dan Tri</a>
+		<a href="https://thachpham.com/"target="_blank"style="border: 1px solid #AEB404"> Thach Pham</a>
+		<a href="#"target="_blank"style="border: 1px solid #AEB404"> Basic English</a>
+		<a href="#"target="_blank"style="border: 1px solid #AEB404"> BigO-coding</a>
+		<a href="#"target="_blank"style="border: 1px solid #AEB404">Tiêu Biểu</a>
+		<a href="#"target="_blank"style="border: 1px solid #AEB404"> Sign in</a>
+		<a href="#" target="_blank"style="border: 1px solid #AEB404"> Register</a>
+		<a href="#"target="_blank" style="float: right"> About Us</a>
+	</div>
+	<div class="clearfix">
+		<div class="representative row">
+			<div class="card">
+				<h1>Representative</h1>
+				<h5>14 December 2018</h5>
+			</div>
+			<p>HƯỚNG DẪN CÀI LẠI WORDPRESS KHI BỊ DÍNH MÃ ĐỘC</p>
+			<p>Việc website WordPress bị dính mã độc bởi việc sử dụng theme/plugin không rõ nguồn gốc (nếu không muốn nói là dùng lậu) hoặc đặt mật khẩu đơn giản dễ đoán là chuyện quá đỗi bình thường của chúng ta.
+			 dụng CloudLinux như AZDIGI, StableHost, A2Hosting, Hawkhost,…mà sử dụng để tránh bị nhiễm mã độc từ anh bạn hàng xóm.</p>
+		</div>
+		<div class="form1">
+	    	<p style="text-align: center">Register</p>
+	    	<input type="text" id="fname" name="fname" placeholder="Nhập Tên">
+	    	<br>
+	    	<input type="text" id="lname" name="lname" placeholder="Nhập Họ và tên đệm">
+    	</div>
+
+	</div>
+    
+</body>
+</html>
